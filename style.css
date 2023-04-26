@@ -221,7 +221,7 @@
 }
 
 .main{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     /* padding-left: 10vw;
     padding-right: 10vw; */
 }
@@ -231,59 +231,78 @@
 
 .edu{
     font-family: 'Prompt', sans-serif;
-    background-color: beige;
+    /* background-color: beige; */
     display: flex;
     flex-direction: column;
     margin-top: 10px;
     text-align: center;
-    padding-left: 7vw;
-    padding-right: 7vw;
+    padding: 10px;
+    /* padding-left: 7vw; */
+    /* padding-right: 7vw; */
     border-style: double;
     border-radius: 50px;
 }
 .edu h1{
-    background-color: bisque;
+    color: white;
+    background-color: black;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
 }
+
 .eduBox{
-    padding: 10px;
-    background-color: yellow;
+    /* padding: 10px; */
+    background-color: palegreen;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.eduBox h3{
+    background-color: white;
 }
 
 .mainOuterTwo{
-    background-color:blue;
+    /* background-color:blue; */
     padding: 50px;
     text-align: center;
 }
 .exp{
     font-family: 'Prompt', sans-serif;
-    background-color: orange;
+    /* background-color: orange; */
     border-style: double;
     padding: 10px;
     border-radius: 50px;
 }
+.exp h1{
+    color: white;
+    background-color: black;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+}
 .expBox{
     display: flex;
     flex-direction: column;
-    background-color: gold;
+    /* background-color: gold; */
 }
 .expUpperBoxOne{
     display: flex;
     flex-direction: column;
     float: left;
     text-align: left;
-    background-color: gray;
+    padding: 10px;
+    /* background-color: gray; */
 }
 .expUpperBoxTwo{
     display: flex;
     flex-direction: column;
     float: right;
-    background-color: firebrick;
+    /* background-color: firebrick; */
     text-align: right;
 }
 .expLowerBox{
-    background-color: hotpink;
+    background-color: palegreen;
     padding: 20px;
     text-align: left;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 
 }
 .expRole{
@@ -311,17 +330,23 @@
     cursor: pointer;
 }
 .mainOuterThree{
-    background-color: indianred;
+    /* background-color: indianred; */
     font-family: 'Prompt', sans-serif;
     padding: 50px;
     text-align: center;
 
 }
 .project{
-    background-color: gold;
+    /* background-color: gold; */
     border-style: double;
     border-radius: 50px;
     padding: 10px;
+}
+.project h1{
+    color: white;
+    background-color: black;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
 }
 .projectTitle{
     background-color:honeydew;
@@ -330,6 +355,8 @@
     text-align: left;
     padding: 20px;
     background-color: palegreen;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 /* INCLUDE LINKS */
