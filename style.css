@@ -19,11 +19,13 @@
 }
 
 .sidebar{
+    position: absolute;
     background-color: black;
     color: aliceblue;
     height: 100vh;
     /* width: 200px; */
     font-family: 'Prompt', sans-serif;
+    transition: transform 0.3s ease-in;
 }
 .sidebar nav{
     padding: 30px;
@@ -413,6 +415,9 @@
         transform: translate(-443px,0px);
         position: absolute;
     } */
+    .devPic{
+        display: none;
+    }
     .main{
         padding-top: 50px;
     }
@@ -426,7 +431,7 @@
 
 }
 .cross{
-    margin-left: 90px;
+    margin-left: 120px;
 }
 .sidebarGo{
     transform: translate(-443px,0px);
