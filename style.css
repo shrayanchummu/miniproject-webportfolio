@@ -22,7 +22,7 @@
     background-color: black;
     color: aliceblue;
     height: 100vh;
-    width: 200px;
+    /* width: 200px; */
     font-family: 'Prompt', sans-serif;
 }
 .sidebar nav{
@@ -409,13 +409,28 @@
     *{
         /* background-color: rgb(250,224,75); */
     }
-    .sidebar{
+    /* .sidebar{
         transform: translate(-443px,0px);
         position: absolute;
-    }
+    } */
     .main{
         padding-top: 50px;
     }
+}
+
+.ham{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+
+}
+.cross{
+    margin-left: 90px;
+}
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
 }
 
 
