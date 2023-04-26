@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+
+}
+
+.main{
+    background-color: white;
+    width: 88vw;
+}
+
+.sidebar{
+    background-color: black;
+    color: aliceblue;
+    height: 100vh;
+    width: 200px;
+    font-family: 'Prompt', sans-serif;
+}
+.sidebar nav{
+    padding: 30px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 22px;
+    padding-top: 25px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color:white;
+}
+.sidebar nav li a:hover{
+    text-decoration: none;
+    color:rgb(250,224,75);
+} 
+
+.InfoContainer{
+    display: flex;
+    background-color: white;
+    height: 370px;
+    width: 80vw;
+    margin: 100px auto;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 35px;
+    font-family: 'Prompt', sans-serif;
+    padding-bottom: 10px;
+}
+.name{
+    font-size: 65px;
+    font-weight: bold;
+    font-family: 'Bruno Ace SC', cursive;
+}
+.about{
+    font-size: 35px;
+    font-family: 'Source Code Pro', monospace;
+    padding-bottom: 10px;
+}
+.moreabout{
+    font-size: 25px;
+    font-family: 'Prompt', sans-serif;
+    padding-top: 10px;
+}
+.buttons{
+    display: flex;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+.buttons button{
+    border-radius: 20px;
+    padding: 10px;
+    background-color:rgb(250,224,75);
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    color: rgb(250,224,75);
+    background-color:black;
+}
+
+.devPic img{
+    height:370px ;
+        
+}
+
+
+.formSpace{
+    padding: 10px 25vw 0px 25vw;
+    background-color: lavender;
+    height: 100vh;
+}
+.formHeading{
+    color: black;
+    text-align: center;
+    background-color: lavender;
+    padding-top: 50px;
+    font-family: 'Prompt', sans-serif;
+}
+.contactForms{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    /* background-color: rgb(250,224,75); */
+    padding: 20px;
+    border-style: double;
+    border-radius: 50px;
+}
+.clientName{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 200;
+    font-family: 'Source Code Pro', monospace;
+    /* background-color: darkcyan; */
+    padding: 10px;
+}
+#clientName{
+    border-radius: 30px;
+    height: 30px;
+}
+#clientName.form-control{
+    padding: 5px;
+}
+.clientEmail{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 200;
+    font-family: 'Source Code Pro', monospace;
+    /* background-color: orangered; */
+    padding: 10px;
+}
+#clientEmail{
+    border-radius: 30px;
+    height: 30px;
+}
+#clientEmail.form-control{
+    padding: 5px;
+}
+.clientPhone{
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    /* background-color: yellow; */
+    padding: 10px;
+}
+#clientPhone{
+    border-radius: 30px;
+    height: 30px;
+}
+#clientPhone.form-control{
+    padding: 5px;
+}
+.clientQuery{
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    /* background-color: khaki; */
+    padding: 10px;
+}
+.clientQuery p{
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    /* background-color: khaki; */
+    /*padding: 10px;*/
+    margin-bottom: 5px;
+}
+#clientQuery{
+    border-radius: 30px;
+    border-style: double;
+
+}
+#clientQuery.form-label{
+    padding: 10px;
+}
+.isClient{
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    /* background-color: coral; */
+    padding: 10px;
+}
+/* #isClient.form-check-input{
+    height: 30px;
+} */
+.contactSubmitButton{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    margin-top: 0px;
+    padding: 10px;
+    border-radius: 30px;
+}
+.contactSubmitButton:hover{
+    background-color: black;
+    color: rgb(250,224,75);
+    margin-top: 0px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.main{
+    background-color: aquamarine;
+    /* padding-left: 10vw;
+    padding-right: 10vw; */
+}
+.mainOuterOne{
+    padding: 50px;
+}
+
+.edu{
+    font-family: 'Prompt', sans-serif;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    text-align: center;
+    padding-left: 7vw;
+    padding-right: 7vw;
+    border-style: double;
+    border-radius: 50px;
+}
+.edu h1{
+    background-color: bisque;
+}
+.eduBox{
+    padding: 10px;
+    background-color: yellow;
+}
+
+.mainOuterTwo{
+    background-color:blue;
+    padding: 50px;
+    text-align: center;
+}
+.exp{
+    font-family: 'Prompt', sans-serif;
+    background-color: orange;
+    border-style: double;
+    padding: 10px;
+    border-radius: 50px;
+}
+.expBox{
+    display: flex;
+    flex-direction: column;
+    background-color: gold;
+}
+.expUpperBoxOne{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    text-align: left;
+    background-color: gray;
+}
+.expUpperBoxTwo{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    background-color: firebrick;
+    text-align: right;
+}
+.expLowerBox{
+    background-color: hotpink;
+    padding: 20px;
+    text-align: left;
+
+}
+.expRole{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 13px;
+}
+
+/* INCLUDE LINKS */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
