@@ -221,18 +221,33 @@
 }
 
 .main{
-    /* background-color: aquamarine; */
+    /* background-color: black; */
     /* padding-left: 10vw;
     padding-right: 10vw; */
 }
 .mainOuterOne{
     padding: 50px;
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+    
+}
+.mainOuterOneOne{
+    width: 500px;
+    float: left;
+    padding-right: 100px;
+}
+.mainOuterOneTwo{
+    padding-left: 100px;
+    width: 500px;
+    float: right;
 }
 
 .edu{
     font-family: 'Prompt', sans-serif;
     /* background-color: beige; */
     display: flex;
+    /* width: 40vw; */
     flex-direction: column;
     margin-top: 10px;
     text-align: center;
@@ -358,10 +373,50 @@
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
 }
+.interests{
+    font-family: 'Prompt', sans-serif;
+    /* background-color: beige; */
+    display: flex;
+    /* width: 40vw; */
+    flex-direction: column;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+    /* padding-left: 7vw; */
+    /* padding-right: 7vw; */
+    border-style: double;
+    border-radius: 50px;
+}
+.interests h1{
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+}
+.interests h6{
+    color: white;
+}
+.interestsInfo{
+    background-color: palegreen;
+    border-radius: 50px;
+}
+.interestsInfo p{
+    font-size: large;
+}
 
 /* INCLUDE LINKS */
 
-
+@media (max-width:1000px){
+    *{
+        /* background-color: rgb(250,224,75); */
+    }
+    .sidebar{
+        transform: translate(-443px,0px);
+        position: absolute;
+    }
+    .main{
+        padding-top: 50px;
+    }
+}
 
 
 
