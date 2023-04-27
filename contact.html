@@ -30,33 +30,38 @@
                 <img class="bar" src="bar.jpg" alt="" width="25px">
                 <img class="cross" src="cross.jpg" alt="" width="25px">
             </div>
-            <div class="formHeading">
-                <h1>Contact Me</h1>
-            </div>
-            <div class="formSpace">
-                <div class="contactForms">
-                    <form>
-                        <div class="clientName">
-                            <label for="clientName" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="clientName">
+            <div class="contactForm">
+                <div class="formContainer">
+                    <form action="https://formsubmit.co/shrayanchummu@gmail.com" method="POST">
+                        <h2>CONTACT ME</h2>
+                        <div class="formContent">
+                            <div class="inputBox">
+                                <label for="name">Full Name</label>
+                                <input type="text" placeholder="Enter Full Name" name="name" required>
+                            </div>
+                            <div class="inputBox">
+                                <label for="phoneNumber">Phone Number</label>
+                                <input type="tel" placeholder="Enter Phone Number" name="phoneNumber" required>
+                            </div>
+                            <div class="inputBox">
+                                <label for="email">Email</label>
+                                <input type="email" placeholder="Enter valid Email Address" name="email" required>
+                            </div>
+                            <div class="inputBox">
+                                <label for="query">Enquery</label>
+                                <input type="text" placeholder="Enter your Enquery" name="query" required>
+                            </div>
+                            <div class="inputBoxTwo">
+                                <div class="inputBoxTwo">
+                                    <input type="checkbox" id="isClient" name="isClient" value="isClient">
+                                    <label for="isClient">Up for Work?</label><br>
+                                </div>
+                            </div>
+                            <div class="formButton">
+                                <button type="submit">Send</button>
+                            </div>
+                            
                         </div>
-                        <div class="clientEmail">
-                            <label for="clientEmail" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="clientEmail" aria-describedby="emailHelp">
-                        </div>
-                        <div class="clientPhone">
-                            <label for="clientPhone" class="form-label">Phone Number</label>
-                            <input type="number" class="form-control" id="clientPhone">
-                        </div>
-                        <div class="clientQuery">
-                            <p>Enquery</p>
-                            <textarea for="clientQuery" class="form-label" rows="7" cols="30" id="clientQuery"></textarea>
-                        </div>
-                        <div class="isClient">
-                            <input type="checkbox" class="form-check-input" id="isClient">
-                            <label class="form-check-label" for="isClient">I want you to work for me</label>
-                        </div>
-                        <button type="submit" class="contactSubmitButton">Submit</button>
                     </form>
                 </div>
             </div>

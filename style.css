@@ -103,124 +103,6 @@
 }
 
 
-.formSpace{
-    padding: 10px 25vw 0px 25vw;
-    background-color: lavender;
-    height: 100vh;
-}
-.formHeading{
-    color: black;
-    text-align: center;
-    background-color: lavender;
-    padding-top: 50px;
-    font-family: 'Prompt', sans-serif;
-}
-.contactForms{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-family: 'Source Code Pro', monospace;
-    /* background-color: rgb(250,224,75); */
-    padding: 20px;
-    border-style: double;
-    border-radius: 50px;
-}
-.clientName{
-    font-size: 20px;
-    text-align: center;
-    font-weight: 200;
-    font-family: 'Source Code Pro', monospace;
-    /* background-color: darkcyan; */
-    padding: 10px;
-}
-#clientName{
-    border-radius: 30px;
-    height: 30px;
-}
-#clientName.form-control{
-    padding: 5px;
-}
-.clientEmail{
-    font-size: 20px;
-    text-align: center;
-    font-weight: 200;
-    font-family: 'Source Code Pro', monospace;
-    /* background-color: orangered; */
-    padding: 10px;
-}
-#clientEmail{
-    border-radius: 30px;
-    height: 30px;
-}
-#clientEmail.form-control{
-    padding: 5px;
-}
-.clientPhone{
-    font-size: 20px;
-    font-weight: 200;
-    text-align: center;
-    font-family: 'Source Code Pro', monospace;
-    /* background-color: yellow; */
-    padding: 10px;
-}
-#clientPhone{
-    border-radius: 30px;
-    height: 30px;
-}
-#clientPhone.form-control{
-    padding: 5px;
-}
-.clientQuery{
-    font-size: 20px;
-    font-weight: 200;
-    text-align: center;
-    font-family: 'Source Code Pro', monospace;
-    /* background-color: khaki; */
-    padding: 10px;
-}
-.clientQuery p{
-    font-size: 20px;
-    font-weight: 200;
-    text-align: center;
-    font-family: 'Source Code Pro', monospace;
-    /* background-color: khaki; */
-    /*padding: 10px;*/
-    margin-bottom: 5px;
-}
-#clientQuery{
-    border-radius: 30px;
-    border-style: double;
-
-}
-#clientQuery.form-label{
-    padding: 10px;
-}
-.isClient{
-    font-size: 15px;
-    font-weight: 300;
-    text-align: center;
-    font-family: 'Source Code Pro', monospace;
-    /* background-color: coral; */
-    padding: 10px;
-}
-/* #isClient.form-check-input{
-    height: 30px;
-} */
-.contactSubmitButton{
-    cursor: pointer;
-    background-color: black;
-    color: white;
-    margin-top: 0px;
-    padding: 10px;
-    border-radius: 30px;
-}
-.contactSubmitButton:hover{
-    background-color: black;
-    color: rgb(250,224,75);
-    margin-top: 0px;
-    padding: 10px;
-    border-radius: 30px;
-}
 
 .main{
     /* background-color: cadetblue; */
@@ -508,6 +390,86 @@
     border-radius: 50px;
     width: 50px;
     padding: 5px;
+    background-color: black;
+    color: rgb(250,224,75);
+}
+
+.contactForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    font-family: 'Prompt', sans-serif;
+    padding: 50px;
+    background-color: palegreen;
+    height: 100vh;
+}
+.formContainer{
+    background-color: white;
+    max-width: 650px;
+    padding: 28px;
+    margin: 0 28px;
+    box-shadow: 5px 5px 20px black;
+}
+.formContainer h2{
+    /* color: white; */
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    /* padding-bottom: 8px; */
+    border-bottom: 1px solid black;
+}
+.formContent{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    padding: 20px;
+}
+.inputBox{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    width: 50%;
+    padding-bottom: 15px;
+}
+.inputBox:nth-child(2n){
+    justify-content: end;
+}
+.inputBox label{
+    width: 95%;
+    color: black;
+    font-weight: bold;
+    /* margin: 5px 0; */
+}
+.inputBox input{
+    height: 40px;
+    /* width: 195px; */
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+}
+.inputBoxTwo{
+    display: flex;
+    flex-direction: row;
+}
+.inputBoxTwo label{
+    padding-left: 10px;
+}
+.formButton{
+    padding-top: 10px;
+    /* border-radius: 50px; */
+}
+.formButton button{
+    padding: 7px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: rgb(250,224,75);
+    color: black;
+}
+.formButton button:hover{
+    padding: 7px;
+    border-radius: 50px;
+    cursor: pointer;
     background-color: black;
     color: rgb(250,224,75);
 }
