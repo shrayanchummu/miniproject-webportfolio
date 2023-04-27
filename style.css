@@ -441,7 +441,7 @@
 }
 
 .skills{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     height: 100vh;
     align-items: center;
     padding: 50px;
@@ -449,7 +449,7 @@
 }
 .skillbox{
     margin-top: 150px;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     border-style: double;
     border-radius: 50px;
     text-align: center;
@@ -463,9 +463,46 @@
 }
 .skillsInfo{
     padding: 20px;
-    background-color: bisque;
+    background-color: aquamarine;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
+}
+.services{
+    font-family: 'Prompt', sans-serif;
+    /* background-color: aquamarine; */
+    height: 100vh;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    text-align: center;
+}
+.services h1{
+    background-color: black;
+    color: aliceblue;
+}
+.serviceBox{
+    border-style: double;
+}
+.serviceHeading{
+    display: flex;
+    flex-direction: row; 
+    background-color: palegreen;
+    padding: 10px;
+    align-items: center;
+}
+.serviceButton{
+    /* display: flex; */
+    padding: 6px;
+    margin-left: 16px;
+    /* float: right; */
+    /* background-color: rgb(250,224,75); */
+    cursor: pointer;
+}
+.buttonGo{
+    border-radius: 50px;
+    width: 50px;
+    padding: 5px;
+    background-color: rgb(250,224,75);
 }
 
 
